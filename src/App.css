@@ -1,0 +1,41 @@
+.wrapper {
+  height: 500px;
+  width: 800px;
+  border: 1px solid black;
+  display: flex;
+}
+
+.conversations {
+  height: 100%;
+  width: 30%;
+  border-right: 1px solid black;
+}
+
+.chat_box {
+  width: 70%;
+}
+
+
+.chat_content {
+  height: 79%;
+  overflow: auto;
+}
+
+.chat_text {
+  width: 99%;
+  height: 20%;
+}
+.conversation_card {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+}
+
+.conversation_card h6 {
+  margin: 0;
+  line-height: 40px;
+}
+
+.conversation_card:hover {
+  background: lightgray;
+}
